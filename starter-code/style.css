@@ -1,0 +1,314 @@
+/* Universal element */
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+/* Root element */
+html{
+    font-family:'IBM Plex Sans';
+    max-width:100%;
+    min-height:100vh;
+    font-size:16px;
+}
+/* Desktop Specifications */
+body{
+    background-image:url('./assets/bg-main-desktop.png');
+}
+#logo{
+   margin-top:40px;
+   margin-left:80px;
+}
+#bg-pattern-1{
+    display:block;
+    float:right;
+}
+#main-description{
+    margin-top:80px;
+    margin-left:80px;
+    font-size:5.5rem;
+    font-weight:700;
+    letter-spacing:-1px;
+    color: #191826;
+    line-height:88px;
+}
+#supporting-description{
+    margin-top:40px;
+    margin-left:80px;
+    font-weight:400;
+    font-size:1.25rem;
+    line-height:34px;
+    color:#191826;
+}
+#bg-black{
+    margin-left:7em;
+    margin-right:3em;
+    margin-top:370px;
+    width:70em;
+    height:40em;
+    background-color:#191826;
+    border-radius:12px;
+}
+#bg-pattern-2{
+    padding-left:34.3em;
+    position:relative;
+    bottom:-1em;
+    right:12em;
+}
+#illustration-app{
+    position: relative;
+    bottom:43em;
+    padding-left:5.85em;
+    width:435px;
+    height:666px;
+}
+.premium{
+    width:23em;
+    height:37em;
+    background-color:#FA7453;
+    border-radius:12px;
+    color:#FCFAF9;
+    position:relative;
+    bottom:61em;
+    left:38em;
+}
+#premium-eq{
+    font-weight:700;
+    line-height:52px;
+    font-size:2.5rem;
+    padding-top:30px;
+    padding-left:25px;
+}
+
+#premium-text{
+    font-weight:400;
+    line-height:34px;
+    font-size:1.25rem;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.subscription{
+    margin-bottom:20px;
+    margin:20px;
+}
+#recharge{
+    letter-spacing:-0.2px;
+    font-size:1.25rem;
+    line-height:32px;
+    font-weight:400;
+    vertical-align:15px;
+}
+.apple-icon{
+    width:20em;
+    height:3em;
+    background-color:#191826;
+    margin:auto;
+    border-radius:12px;
+    text-align:center;
+    margin-bottom:20px;
+    margin-top:20px;
+    padding-top:10px;
+}
+.apple-icon:hover{
+    cursor:pointer;
+}
+.android-icon{
+    width:20em;
+    height:3em;
+    background-color:#FCFAF9;
+    color:#191826;
+    margin:auto;
+    border-radius:12px;
+    text-align: center;
+    padding-top:7px;
+}
+.android-icon:hover{
+    cursor:pointer;
+}
+#android-1{
+    font-weight:700;
+    font-size:1.125rem;
+    line-height:32px;
+    letter-spacing:-0.18px;
+}
+.copyright{
+    text-align:center;
+    font-weight:400;
+    font-size:1rem;
+    line-height:26px;
+    position:relative;
+    bottom:920px;
+    margin-right:270px;
+}
+#copyright-2{
+     margin-left:99px;
+}
+#copyright-3{
+    margin-left:5px;
+}
+#equalizer-logo{
+    position:relative;
+    bottom:880px;
+}
+.social-media-icons{
+    position:relative;
+    margin-left:970px;
+    bottom:970px;
+}
+#icon-facebook{
+   color:#191826;
+   margin-right:20px;
+}
+#icon-facebook:hover{
+    cursor:pointer;
+}
+#icon-instagram{
+    color:#191826;
+    margin-right:20px;
+}
+#icon-instagram:hover{
+    cursor:pointer;
+}
+#icon-twitter{
+    color:#191826;
+}
+#icon-twitter:hover{
+    cursor:pointer;
+}
+footer{
+    position:relative;
+    top:1000px;
+    margin:80px;
+}
+
+/* Tablet Specifications */
+@media only screen and (min-width:668px) and (max-width:800px){
+    body{
+        background-image:url('./assets/bg-main-tablet.png');
+        /*max-width:50vw;
+        min-height:50vh;*/
+    }
+    #logo{
+        margin-top:30px;
+        margin-left:70px;
+        max-height:80em;
+     }
+     #bg-pattern-1{
+        display:block;
+        float:right;
+        max-width:60em;
+        max-height:60em;
+    }
+    #main-description{
+        margin-top:80px;
+        margin-left:70px;
+        font-size:4rem;
+        font-weight:700;
+        letter-spacing:-0.727273px;
+        color: #191826;
+        line-height:64px;
+    }
+    #supporting-description{
+        margin-top:40px;
+        margin-left:70px;
+        font-weight:400;
+        font-size:1.25rem;
+        line-height:28px;
+        color:#191826;
+    }
+    #bg-black{
+        margin-top:370px;
+        max-width:40vw;
+        max-height:100vh;
+        background-color:#191826;
+        border-radius:12px;
+        display:inline-flex;
+    }
+    #bg-pattern-2{
+        padding-left:34.3em;
+        position:relative;
+        bottom:-1em;
+        right:12em;
+        width:50em;
+        height:50em;
+        
+    }
+    #illustration-app{
+        width:50em;
+        height:60em;
+        position: relative;
+    }
+    .premium{
+        width:30em;
+        height:30em;
+        background-color:#FA7453;
+        border-radius:12px;
+        color:#FCFAF9;
+        position:relative;
+    }
+    .copyright{
+        text-align:center;
+        font-weight:400;
+        font-size:1rem;
+        line-height:26px;
+        position:relative;
+        bottom:920px;
+        margin-right:270px;
+    }
+    .social-media-icons{
+        position:relative;
+        margin-left:370px;
+        bottom:970px;
+    }
+    #icon-facebook{
+        color:#191826;
+        margin-right:20px;
+     }
+     #icon-instagram{
+        color:#191826;
+        margin-right:20px;
+    }
+    #icon-twitter{
+        color:#191826;
+        display:inline-flex;
+    }
+}
+
+/* Mobile Specifications */
+@media only screen and (min-width:318px) and (max-width:667px){
+    body{
+        background-image:url("./assets/bg-main-mobile.png");
+    }
+    #bg-pattern-1{
+       display:none;
+    }
+    #main-description{
+        margin-top:80px;
+        margin-left:30px;
+        margin-right:30px;
+        font-size:2.5rem;
+        font-weight:700;
+        letter-spacing:-0.454545px;
+        color: #191826;
+        line-height:48px;
+    }
+    #supporting-description{
+        margin-top:40px;
+        margin-left:30px;
+        margin-right:30px;
+        font-weight:400;
+        font-size:1rem;
+        line-height:26px;
+        color:#191826;
+    }
+    #bg-black{
+        margin-top:370px;
+        max-width:40vw;
+        max-height:100vh;
+        background-color:#191826;
+        border-radius:12px;
+    }
+}
+
